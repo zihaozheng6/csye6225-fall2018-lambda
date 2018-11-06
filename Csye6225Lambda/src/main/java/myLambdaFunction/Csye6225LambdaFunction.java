@@ -1,3 +1,5 @@
+package myLambdaFunction;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import com.amazonaws.services.lambda.runtime.RequestHandler;

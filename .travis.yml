@@ -52,7 +52,8 @@ deploy:
     role: "arn:aws:iam::398590284929:role/lambdaUserRole-LambdaExecutionRole-41DUMNGN5S8W"
     runtime: java8
     zip: lambda_artifact/Csye6225LambdaFunction-1.0-SNAPSHOT.jar
-    handler_name: "myLambdaFunction.Csye6225LambdaFunction::handleRequest"
+    module_name: "myLambdaFunction"
+    handler_name: "Csye6225LambdaFunction::handleRequest"
     access_key_id: $access_key_id
     timeout: 300
     secret_access_key: $secret_access_key

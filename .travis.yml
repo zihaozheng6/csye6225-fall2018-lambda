@@ -27,7 +27,7 @@ after_success:
   - cp Csye6225Lambda/target/Csye6225LambdaFunction-1.0-SNAPSHOT.jar .
   - mkdir lambda_artifact
   - ls -al
-  - mv Csye6225LambdaFunction-1.0-SNAPSHOT.jar lambda_artifact/
+  - cp Csye6225LambdaFunction-1.0-SNAPSHOT.jar lambda_artifact/
   - ls -al
   - pwd
   - cd lambda_artifact
@@ -52,7 +52,6 @@ deploy:
     role: "arn:aws:iam::398590284929:role/LambdaExecutionRole"
     runtime: "Java 8"
     handler_name: "Csye6225LambdaFunction::handleRequest"
-    zip: "lambda_artifact/"
     access_key_id: $access_key_id
     timeout: 300
     secret_access_key: $secret_access_key

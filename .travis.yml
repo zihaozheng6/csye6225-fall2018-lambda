@@ -49,7 +49,7 @@ deploy:
   - provider: lambda
     function_name: "Csye6225LambdaFunction"
     region: "us-east-1"
-    role: "arn:aws:iam::398590284929:role/lambdaUserRole-LambdaExecutionRole-41DUMNGN5S8W"
+    role: $lambda_execuation_role
     runtime: java8
     zip: lambda_artifact/Csye6225LambdaFunction-1.0-SNAPSHOT.jar
     module_name: "myLambdaFunction"

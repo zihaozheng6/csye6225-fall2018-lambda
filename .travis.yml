@@ -9,7 +9,7 @@ install: true
 script:
   - pwd
   - ls -a
-  - echo secretKey=${secret_access_key} >> webapp/Csye6225Webapp/src/main/resources/AwsCredentials.properties
+  - echo secretKey=${secret_access_key} >> Csye6225Lambda/src/main/resources/AwsCredentials.properties
   - echo accessKey=${access_key_id} >> Csye6225Lambda/src/main/resources/AwsCredentials.properties
   - cat Csye6225Lambda/src/main/resources/AwsCredentials.properties
   - cd Csye6225Lambda/

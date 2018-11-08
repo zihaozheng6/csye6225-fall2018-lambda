@@ -55,6 +55,7 @@ deploy:
     role: $lambda_execuation_role
     runtime: java8
     zip: lambda_artifact/Csye6225LambdaFunction-1.0-SNAPSHOT.jar
+    memory_size: 1280
     module_name: "myLambdaFunction"
     handler_name: "Csye6225LambdaFunction::handleRequest"
     access_key_id: $access_key_id

@@ -73,7 +73,6 @@ public class Csye6225LambdaFunction implements RequestHandler<SNSEvent,Object>{
         //Set a get item request
         HashMap<String,AttributeValue> key_to_get=new HashMap<String, AttributeValue>();
         key_to_get.put("userName",new AttributeValue(userEmail));
-        key_to_get.put("password",new AttributeValue(userPassToken));
         GetItemRequest getItemRequest= new GetItemRequest().withKey(key_to_get).withTableName("UserTable");
 
 

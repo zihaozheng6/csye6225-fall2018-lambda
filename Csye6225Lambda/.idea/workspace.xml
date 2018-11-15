@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9488f697-b42d-4d9e-a2c3-6ad1ab40c839" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myLambdaFunction/Csye6225LambdaFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myLambdaFunction/Csye6225LambdaFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AwsCredentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AwsCredentials.properties" afterDir="false" />
-    </list>
+    <list default="true" id="9488f697-b42d-4d9e-a2c3-6ad1ab40c839" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +14,7 @@
     <session id="-1011675069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -127,8 +123,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="499" />
+    <option name="x" value="55" />
+    <option name="y" value="378" />
     <option name="width" value="1717" />
     <option name="height" value="838" />
   </component>
@@ -187,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541722566512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541722930958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -251,7 +247,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="499" width="1717" height="838" extended-state="0" />
+    <frame x="55" y="378" width="1717" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -267,7 +263,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.28735632" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.28735632" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />

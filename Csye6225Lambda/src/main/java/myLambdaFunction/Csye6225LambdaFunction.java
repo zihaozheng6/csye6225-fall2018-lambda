@@ -1,6 +1,7 @@
 package myLambdaFunction;
 
 import java.text.SimpleDateFormat;
+import java.time.Instant;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
@@ -80,6 +81,8 @@ public class Csye6225LambdaFunction implements RequestHandler<SNSEvent,Object>{
         HashMap<String, AttributeValue> item_value= new HashMap<String, AttributeValue>();
         item_value.put("userName",new AttributeValue(userEmail));
         item_value.put("password",new AttributeValue(userPassToken));
+        Long timeToLive= Instant.now().getEpochSecond()+1200;
+        item_value.put("TimeToLive",new AttributeValue(timeToLive.toString()));
 
         try
         {
